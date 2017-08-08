@@ -10,6 +10,9 @@ class WordChainer
       target_word.diff(word) == 1
     end
   end
+
+  def run(source, target)
+  end
 end
 
 class String
